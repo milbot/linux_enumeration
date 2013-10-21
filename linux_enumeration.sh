@@ -11,6 +11,16 @@ if [ "$outfile" ]; then
     echo -e "#########################################################" >> $outfile
     echo -e "# https://github.com/milbot/linux_enumeration" >> $outfile
     echo -e "# version 0.1" >> $outfile
+    echo -e "#########################################################" >> $outfile
+    echo -e "Methodology Used: http://insidetrust.blogspot.com.au/2011/04/quick-guide-to-linux-privilege.html" >> $outfile
+    echo -e "#########################################################" >> $outfile
+    echo -e "  1. Operating System" >> $outfile
+    echo -e "  2. Services & Applications" >> $outfile
+    echo -e "  3. File Systems" >> $outfile
+    echo -e "  4. Confidential Information" >> $outfile
+    echo -e "  5. Communications & Networking" >> $outfile
+    echo -e "  6. Possible Exploit Code" >> $outfile
+
     echo -e "usage ./linux_enumeration.sh outfile.txt 'keyword1 keyword2'\n" >> $outfile
 else
     echo -e "\n\e[00;30m#########################################################\e[00m"
@@ -18,6 +28,15 @@ else
     echo -e "\e[00;30m#########################################################\e[00m"
     echo -e "\e[00;30m# https://github.com/milbot/linux_enumeration\e[00m"
     echo -e "\e[00;30m# version 0.1\e[00m\n"
+    echo -e "\e[00;34m#########################################################\e[00m"
+    echo -e "\e[00;34mMethodology Used: http://insidetrust.blogspot.com.au/2011/04/quick-guide-to-linux-privilege.html\e[00m"
+    echo -e "\e[00;34m#########################################################\e[00m"
+    echo -e "\e[00;34m  1. Operating System\e[00m"
+    echo -e "\e[00;34m  2. Services & Applications\e[00m"
+    echo -e "\e[00;34m  3. File Systems\e[00m"
+    echo -e "\e[00;34m  4. Confidential Information\e[00m"
+    echo -e "\e[00;34m  5. Communications & Networking\e[00m"
+    echo -e "\e[00;34m  6. Possible Exploit Code\e[00m\n"
     echo -e "\e[00;34musage ./linux_enumeration.sh outfile.txt 'keyword1 keyword2'\e[00m\n"
 fi
 
